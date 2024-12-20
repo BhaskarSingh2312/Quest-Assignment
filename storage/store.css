@@ -1,0 +1,193 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f8f8;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 2px 5rem;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+}
+span{
+    color: brown;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    margin-left: 50rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.cta-button {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    background-color: #e55a00;
+}
+.log-button{
+    background-color: white;
+    border: 1px solid grey;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+/* .try-free {
+    background-color: #ff5630;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+  } */
+  
+  .contact-section {
+    /* background: #fff; */
+    background: red;
+    padding: 40px 20px;
+  }
+  
+  .contact-header {
+    text-align: center;
+  }
+  
+  .box-1{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+  }
+  .contact-form {
+    /* display: flex;
+    flex-wrap: wrap; */
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form-group {
+    flex: 1;
+    min-width: 300px;
+    
+  }
+  
+  .phone-field {
+    display: flex;
+  }
+  
+
+  .phone-field select,
+  .phone-field input {
+    flex: 1;
+    
+  }
+  .msg textarea{
+    height: 3rem;
+    width: 40rem;
+  }
+  
+  .submit-btn {
+    background-color: #ff5630;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .info-section {
+    background-color: #f5f5f5;
+    padding: 20px;
+  }
+  .footer {
+    background-color: #1a1a1a;
+    padding: 40px 20px;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .footer-column {
+    flex: 1;
+    min-width: 150px;
+  }
+  
+  .footer-column h4 {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #fff;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-column ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-column ul li a {
+    text-decoration: none;
+    color: #aaa;
+    font-size: 14px;
+  }
+  
+  .footer-column ul li a:hover {
+    color: #fff;
+  }
+  
+  .footer-bottom {
+    margin-top: 40px;
+    text-align: center;
+    border-top: 1px solid #333;
+    padding-top: 20px;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+    font-size: 14px;
+    color: #aaa;
+  }
+  
+  .social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 18px;
+    text-decoration: none;
+  }
+  
+  .social-icons a:hover {
+    color: #aaa;
+  }
+  
+  /* Icons - Add Font Awesome for social media icons */
+  @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css'); 
